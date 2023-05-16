@@ -112,4 +112,29 @@ function myOutput(){
         result=(input.value)*30.48;
         document.getElementById('output').innerHTML=result
     }
+    else if(inputType.value === 'feet' && outputType.value === 'feet')
+    {
+        result=(input.value);
+        document.getElementById('output').innerHTML=result
+    }
+    else if(inputType.value === 'meter' && outputType.value === 'meter')
+    {
+        result=(input.value);
+        document.getElementById('output').innerHTML=result
+    }
+    else if(inputType.value === 'centimeter' && outputType.value === 'centimeter')
+    {
+        result=(input.value);
+        document.getElementById('output').innerHTML=result
+    }
+    else if(inputType.value === 'km' && outputType.value === 'km')
+    {
+        result=(input.value);
+        document.getElementById('output').innerHTML=result
+    }
+    else if(inputType.value === 'inch' && outputType.value === 'inch')
+    {
+        result=(input.value);
+        document.getElementById('output').innerHTML=result
+    }
 }
