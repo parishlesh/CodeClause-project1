@@ -12,127 +12,127 @@ convert_btn.addEventListener("click", myOutput)
 
 function myOutput(){
      
-    if(inputType.value === 'inch1' && outputType.value === 'feet')
+    if(inputType.value === 'inch' && outputType.value === 'feet')
     {
         result=(input.value)/12;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'inch1' && outputType.value === 'km')
+    else if(inputType.value === 'inch' && outputType.value === 'km')
     {
         result=(input.value)/39370;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'inch1' && outputType.value === 'meter')
+    else if(inputType.value === 'inch' && outputType.value === 'meter')
     {
         result=(input.value)/39.37;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'inch1' && outputType.value === 'centimeter')
+    else if(inputType.value === 'inch' && outputType.value === 'centimeter')
     {
         result=(input.value)*2.54;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'km1' && outputType.value === 'inch')
+    else if(inputType.value === 'km' && outputType.value === 'inch')
     {
         result=(input.value)*39370;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'km1' && outputType.value === 'meter')
+    else if(inputType.value === 'km' && outputType.value === 'meter')
     {
         result=(input.value)*1000
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'km1' && outputType.value === 'centimeter')
+    else if(inputType.value === 'km' && outputType.value === 'centimeter')
     {
         result=(input.value)*100000;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'km1' && outputType.value === 'feet')
+    else if(inputType.value === 'km' && outputType.value === 'feet')
     {
         result=(input.value)*3281;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'meter1' && outputType.value === 'inch')
+    else if(inputType.value === 'meter' && outputType.value === 'inch')
     {
         result=(input.value)*39.37;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'meter1' && outputType.value === 'km')
+    else if(inputType.value === 'meter' && outputType.value === 'km')
     {
         result=(input.value)/1000;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'meter1' && outputType.value === 'centimeter')
+    else if(inputType.value === 'meter' && outputType.value === 'centimeter')
     {
         result=(input.value)*100;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'meter1' && outputType.value === 'feet')
+    else if(inputType.value === 'meter' && outputType.value === 'feet')
     {
         result=(input.value)*3.281;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'centimeter1' && outputType.value === 'inch')
+    else if(inputType.value === 'centimeter' && outputType.value === 'inch')
     {
         result=(input.value)/2.54;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'centimeter1' && outputType.value === 'km')
+    else if(inputType.value === 'centimeter' && outputType.value === 'km')
     {
         result=(input.value)/100000;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'centimeter1' && outputType.value === 'meter')
+    else if(inputType.value === 'centimeter' && outputType.value === 'meter')
     {
         result=(input.value)/100;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'centimeter1' && outputType.value === 'feet')
+    else if(inputType.value === 'centimeter' && outputType.value === 'feet')
     {
         result=(input.value)/30.48;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'feet1' && outputType.value === 'inch')
+    else if(inputType.value === 'feet' && outputType.value === 'inch')
     {
         result=(input.value)*12;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'feet1' && outputType.value === 'km')
+    else if(inputType.value === 'feet' && outputType.value === 'km')
     {
         result=(input.value)/3281;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'feet1' && outputType.value === 'meter')
+    else if(inputType.value === 'feet' && outputType.value === 'meter')
     {
         result=(input.value)/3.281;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'feet1' && outputType.value === 'centimeter')
+    else if(inputType.value === 'feet' && outputType.value === 'centimeter')
     {
         result=(input.value)*30.48;
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'feet1' && outputType.value === 'feet')
+    else if(inputType.value === 'feet' && outputType.value === 'feet')
     {
         result=(input.value);
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'meter1' && outputType.value === 'meter')
+    else if(inputType.value === 'meter' && outputType.value === 'meter')
     {
         result=(input.value);
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'centimeter1' && outputType.value === 'centimeter')
+    else if(inputType.value === 'centimeter' && outputType.value === 'centimeter')
     {
         result=(input.value);
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'km1' && outputType.value === 'km')
+    else if(inputType.value === 'km' && outputType.value === 'km')
     {
         result=(input.value);
         document.getElementById('output').innerHTML=result
     }
-    else if(inputType.value === 'inch1' && outputType.value === 'inch')
+    else if(inputType.value === 'inch' && outputType.value === 'inch')
     {
         result=(input.value);
         document.getElementById('output').innerHTML=result
