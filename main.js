@@ -9,12 +9,12 @@ const convert_btn= document.getElementById('convertButton')
 
 
 convert_btn.addEventListener("click", myOutput)
-inputTypeValue = inputType.value
-outputTypeValue = outputType.value
+// inputTypeValue = inputType.value
+// outputTypeValue = outputType.value
 
 function myOutput(){
      
-    if(inputTypeValue === 'inch' && outputTypeValue === 'feet')
+    if(inputType.value === 'inch' && outputTypeValue === 'feet')
     {alert("ok")
         output.value=(input.value)/12;
         document.getElementById('output')=output.value
