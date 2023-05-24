@@ -28,35 +28,37 @@ body{
   font-size: 28px;
   font-weight: 500;
   text-align: center;
+  margin-bottom: 15px;
 }
-.wrapper form{
-  margin: 40px 0 20px 0;
+.wrapper div{
+  margin: 0px 0 20px 0;
 }
-form :where(input, select, button){
+div :where(input, select, button){
   width: 100%;
   outline: none;
   border-radius: 5px;
   border: none;
+  
 }
-form p{
+div p{
   font-size: 18px;
   margin-bottom: 5px;
 }
-form input{
+div input{
   height: 50px;
   font-size: 17px;
   padding: 0 15px;
   border: 1px solid #8f8c8c;
 }
-form input:focus{
+div input:focus{
   padding: 0 14px;
   border: 2px solid #444258;
 }
-form .drop-list{
+div .drop-list{
   display: flex;
   margin-top: 20px;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
   justify-content: space-between;
 }
 .drop-list .select-box{
@@ -93,7 +95,7 @@ form .drop-list{
   margin-top: 30px;
   font-size: 22px;
 }
-form button{
+div button{
   height: 52px;
   color: #fff;
   font-size: 17px;
@@ -102,6 +104,6 @@ form button{
   background: #34324b;
   transition: 0.3s ease;
 }
-form button:hover{
+div button:hover{
   background: #37364d;
 }
